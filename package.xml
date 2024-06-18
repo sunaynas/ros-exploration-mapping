@@ -1,1 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>explorer</name>
+  <version>0.0.1</version>
+  <description>idk yet</description>
+  <maintainer email="me@sunayna.com">Sunayna Singh</maintainer>
+  <license>Apache License 2.0</license>
 
+  <!-- Packages that this package depends on -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  
+  <run_depend>opencv2</run_depend>
+
+  <!-- Your package dependencies (if any) -->
+  <!-- <depend>package_name</depend> -->
+
+  <export>
+  </export>
+</package>
